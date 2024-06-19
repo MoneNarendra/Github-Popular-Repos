@@ -1,0 +1,60 @@
+.github-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.github-heading {
+  font-family: 'Lobster';
+  font-size: 45px;
+  color: #0f172a;
+}
+
+.filter-contianer {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.repository-list-contianer {
+  width: 90%;
+}
+
+.failed-img {
+  height: 230px;
+}
+
+@media screen and (min-width: 577px) {
+  .github-bg-container {
+    padding: 30px;
+  }
+  .github-heading {
+    font-size: 30px;
+  }
+  .filter-contianer {
+    width: 40%;
+  } 
+  .failed-img {
+    height: 400px;
+  }
+}
+
+.repositrys-contianer {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.lists-repositries-constiners {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

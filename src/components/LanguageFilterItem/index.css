@@ -1,0 +1,25 @@
+.filter-btn {
+  background-color: transparent;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.active-filter {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+  height: 30px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 577px) {
+  .filter-btn {
+    font-size: 12px;
+  }
+  .active-filter {
+    height: 35px;
+    width: 75px;
+  }
+}
